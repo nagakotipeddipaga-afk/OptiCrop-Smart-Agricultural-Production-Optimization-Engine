@@ -1,0 +1,6 @@
+## Description
+
+The Crop_recommendation.csv dataset is used for developing the OptiCrop Smart Agricultural Production Optimization System. This dataset contains important agricultural parameters such as Nitrogen (N), Phosphorus (P), Potassium (K), temperature, humidity, pH value, rainfall, and the corresponding crop label. It is used for training and evaluating machine learning models to recommend the most suitable crop based on soil and environmental conditions.
+The dataset is obtained from Kaggle, a trusted platform for machine learning and data science datasets.
+Dataset Link:
+https://www.kaggle.com/datasets/chitrakumari25/smart-agricultural-production-optimizing-engine
