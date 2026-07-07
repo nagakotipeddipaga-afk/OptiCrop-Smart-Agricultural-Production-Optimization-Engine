@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Crop Recommendation System</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background:#e8f5e9;
+        }
+        .container{
+            width:450px;
+            margin:40px auto;
+            padding:20px;
+            background:white;
+            border-radius:10px;
+            box-shadow:0 0 10px gray;
+        }
+        h2{
+            text-align:center;
+            color:green;
+        }
+        input{
+            width:100%;
+            padding:10px;
+            margin:8px 0;
+        }
+        button{
+            width:100%;
+            padding:10px;
+            background:green;
+            color:white;
+            border:none;
+            cursor:pointer;
+            font-size:16px;
+        }
+        button:hover{
+            background:darkgreen;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h2>Crop Recommendation System</h2>
+
+<form action="/predict" method="POST">
+
+<label>Nitrogen (N)</label>
+<input type="number" name="N" required>
+
+<label>Phosphorus (P)</label>
+<input type="number" name="P" required>
+
+<label>Potassium (K)</label>
+<input type="number" name="K" required>
+
+<label>Temperature (°C)</label>
+<input type="number" step="any" name="temperature" required>
+
+<label>Humidity (%)</label>
+<input type="number" step="any" name="humidity" required>
+
+<label>Soil pH</label>
+<input type="number" step="any" name="ph" required>
+
+<label>Rainfall (mm)</label>
+<input type="number" step="any" name="rainfall" required>
+
+<button type="submit">Predict Crop</button>
+
+</form>
+
+</div>
+
+</body>
+</html>
